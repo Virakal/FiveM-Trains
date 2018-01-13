@@ -3,9 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainClient", "TrainClient\TrainClient.csproj", "{8C165666-EFD9-43E7-840D-62C90AD76D17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78E7D54D-A91A-43DE-B329-44FE434C386B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainServer", "TrainerServer\TrainServer.csproj", "{BAF14574-C12E-4F0C-8E36-3E3C9030E9E8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C165666-EFD9-43E7-840D-62C90AD76D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C165666-EFD9-43E7-840D-62C90AD76D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C165666-EFD9-43E7-840D-62C90AD76D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C165666-EFD9-43E7-840D-62C90AD76D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF14574-C12E-4F0C-8E36-3E3C9030E9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF14574-C12E-4F0C-8E36-3E3C9030E9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF14574-C12E-4F0C-8E36-3E3C9030E9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF14574-C12E-4F0C-8E36-3E3C9030E9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C165666-EFD9-43E7-840D-62C90AD76D17} = {78E7D54D-A91A-43DE-B329-44FE434C386B}
+		{BAF14574-C12E-4F0C-8E36-3E3C9030E9E8} = {78E7D54D-A91A-43DE-B329-44FE434C386B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE255B04-6093-448D-A311-C99F92A303D6}
